@@ -17,7 +17,7 @@ uci commit
 
 opkg update && opkg list-upgradable | cut -f 1 -d ' ' | xargs -r opkg upgrade
 
-rm -f install-passwall.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/Passwall/main/install-passwall.sh && chmod 777 install-passwall.sh && sh install-passwall.sh
+rm -f install-passwall.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-passwall.sh && chmod +x install-passwall.sh && sh install-passwall.sh
 
 ## https://archive.openwrt.org/releases/22.03.7/targets/ramips/mt7621/openwrt-22.03.7-ramips-mt7621-xiaomi_mi-router-4a-gigabit-squashfs-sysupgrade.bin
 ## https://master.dl.sourceforge.net/project/openwrt-passwall-build/releases/packages-22.03/mipsel_24kc/passwall_packages/sing-box_1.11.14-1_mipsel_24kc.ipk

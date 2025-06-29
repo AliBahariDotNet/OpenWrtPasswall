@@ -17,8 +17,8 @@ opkg install dnsmasq-full ipset ipt2socks iptables iptables-legacy iptables-mod-
 opkg install luci-app-passwall --force-maintainer
 
 cd /usr/share/passwall/rules/
-rm -f direct_ip && wget https://raw.githubusercontent.com/AliBahariDotNet/Passwall/main/direct_ip
-rm -f direct_host && wget https://raw.githubusercontent.com/AliBahariDotNet/Passwall/main/direct_host
+rm -f direct_ip && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/direct_ip
+rm -f direct_host && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/direct_host
 
 uci set passwall.@global_forwarding[0].tcp_no_redir_ports='disable'
 uci set passwall.@global_forwarding[0].udp_no_redir_ports='disable'
@@ -38,15 +38,15 @@ uci commit
 
 cd /etc/init.d/
 
-rm -f install-core-service && wget https://raw.githubusercontent.com/AliBahariDotNet/Passwall/main/install-core-service && chmod +x install-core-service
+rm -f install-core-service && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-core-service && chmod +x install-core-service
 
 /etc/init.d/install-core-service enable
 
 cd /root/
 
 rm -f core.txt
-rm -f install-xray-core.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/Passwall/main/install-xray-core.sh && chmod +x install-xray-core.sh
-rm -f install-sing-box.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/Passwall/main/install-sing-box.sh && chmod +x install-sing-box.sh
+rm -f install-xray-core.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-xray-core.sh && chmod +x install-xray-core.sh
+rm -f install-sing-box.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-sing-box.sh && chmod +x install-sing-box.sh
 
 echo -e "1. Sing-box"
 echo -e "2. Xray"
