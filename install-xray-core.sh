@@ -1,5 +1,7 @@
 #!/bin/sh
 
+service passwall stop
+
 cd /tmp
 
 rm -f xray-core_25.6.8-1_mipsel_24kc.ipk
