@@ -1,5 +1,7 @@
 #!/bin/sh
 
+service passwall stop
+
 cd /tmp
 
 rm -f sing-box_1.11.14-1_mipsel_24kc.ipk
