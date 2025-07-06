@@ -6,7 +6,7 @@
 
 Run this command in openwrt remote ssh
 ```
-rm -f install-passwall.sh && wget https://raw.githubusercontent.com/OpenWrtPasswall/OpenWrtPasswall/main/install-passwall.sh && chmod +x install-passwall.sh && sh install-passwall.sh
+rm -f install-passwall.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-passwall.sh && chmod +x install-passwall.sh && sh install-passwall.sh
 ```
 Done !
 
