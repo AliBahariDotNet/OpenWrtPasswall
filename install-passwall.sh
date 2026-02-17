@@ -34,12 +34,12 @@ uci commit
 
 cd /etc/init.d/
 
-rm -f install-core-service && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-core-service && chmod +x install-core-service
+rm -f install-core-service && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/refs/heads/github-repo/install-core-service && chmod +x install-core-service
 
 /etc/init.d/install-core-service enable
 
 cd /root/
 
-rm -f install-xray-core.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-xray-core.sh && chmod +x install-xray-core.sh && sh install-xray-core.sh
+rm -f install-xray-core.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/refs/heads/github-repo/install-xray-core.sh && chmod +x install-xray-core.sh && sh install-xray-core.sh
 
 rm -f install-passwall.sh
