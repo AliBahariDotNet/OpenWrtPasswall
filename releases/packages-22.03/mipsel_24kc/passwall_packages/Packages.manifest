@@ -1,0 +1,410 @@
+Package: chinadns-ng
+Version: 2025.08.09-1
+Depends: libc
+Source: feeds/passwall_packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1755050199
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: mipsel_24kc
+Installed-Size: 300161
+Filename: chinadns-ng_2025.08.09-1_mipsel_24kc.ipk
+Size: 299458
+SHA256sum: 21863d32e32cc8833cb52b490dc2cc56d0bcec9511e1b5c6576d82e5a979c966
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/passwall_packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1762797068
+Maintainer: ghostmaker
+Architecture: mipsel_24kc
+Installed-Size: 10851
+Filename: dns2socks_2.1-2_mipsel_24kc.ipk
+Size: 11635
+SHA256sum: 2c2304219e489b1bdf458710279929a2d5a2d99eab54ba6ceb9b41d28af12752
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: geoview
+Version: 0.2.5-1
+Depends: libc
+Source: feeds/passwall_packages/geoview
+SourceName: geoview
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1769159331
+Maintainer: snowie2000
+Architecture: mipsel_24kc
+Installed-Size: 2823049
+Filename: geoview_0.2.5-1_mipsel_24kc.ipk
+Size: 2817167
+SHA256sum: 47b17fc2279ea46c2a548505444a5a93d591795adc12f10d4686a1d5d09775d1
+Description:  geoview is a handy tool to extract useful information from geo* files.
+
+Package: hysteria
+Version: 2.7.0-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1768190481
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 6930384
+Filename: hysteria_2.7.0-1_mipsel_24kc.ipk
+Size: 6918089
+SHA256sum: 981741dffb45093b549d83bc63531f2419ac25f1066e010be8abd2e47633543a
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.4-3
+Depends: libc, libpthread
+Source: feeds/passwall_packages/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1716035253
+Architecture: mipsel_24kc
+Installed-Size: 24735
+Filename: ipt2socks_1.1.4-3_mipsel_24kc.ipk
+Size: 25472
+SHA256sum: b05f0e74cbb6d1077fb3c990e1d65f0a31276626f4fef073b9d7e794afa03edf
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: microsocks
+Version: 1.0.5-1
+Depends: libc, libpthread
+Source: feeds/passwall_packages/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1767977540
+Maintainer: lean
+Architecture: mipsel_24kc
+Installed-Size: 5120
+Filename: microsocks_1.0.5-1_mipsel_24kc.ipk
+Size: 5901
+SHA256sum: d4e79ee5acd85d7204091ce276f0e659deb2bf5a5ad88cf7258c313e71743a01
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: naiveproxy
+Version: 143.0.7499.109-2
+Depends: libc, libatomic1
+Source: feeds/passwall_packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1766804225
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: mipsel_24kc
+Installed-Size: 4045093
+Filename: naiveproxy_143.0.7499.109-2_mipsel_24kc.ipk
+Size: 4034746
+SHA256sum: c5f9cb98e6e755767663998b4c41de1ad61695306a06edc3e4d050ba0145f204
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-13
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre2
+Source: feeds/passwall_packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754672534
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 49550
+Filename: shadowsocks-libev-ss-local_3.3.5-13_mipsel_24kc.ipk
+Size: 50245
+SHA256sum: 280ccd6c9b5ebf54f9e0849d3526ceb919ed50b09685dada1ac4fe22d625d366
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-13
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+Source: feeds/passwall_packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754672534
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 45784
+Filename: shadowsocks-libev-ss-redir_3.3.5-13_mipsel_24kc.ipk
+Size: 46526
+SHA256sum: 8445edbd02ce54cf6ffdfede9cc185c8bab9afe04e0c03bdfaaff3e35e9fb68b
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-13
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libcares, libpcre2
+Source: feeds/passwall_packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754672534
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 52653
+Filename: shadowsocks-libev-ss-server_3.3.5-13_mipsel_24kc.ipk
+Size: 53501
+SHA256sum: 7bd1381b7c383089c408daf5110c2c22670ce7051b127fba818a978c4d3edf72
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-13
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+Source: feeds/passwall_packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754672534
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 44045
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-13_mipsel_24kc.ipk
+Size: 44803
+SHA256sum: 30692e669208985f9b48d42da387fe6f8f3a22e5ae4460f25b4c169ae6c571a8
+Description:  shadowsocks-libev ss-tunnel
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754697346
+Architecture: mipsel_24kc
+Installed-Size: 2417
+Filename: shadowsocksr-libev-ssr-check_2.5.6-11_mipsel_24kc.ipk
+Size: 3145
+SHA256sum: a12b24b05e0dd99b22266bbb11a58df8bfdc0db193a91d4b96fabd4e2682ecc3
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754697346
+Architecture: mipsel_24kc
+Installed-Size: 57731
+Filename: shadowsocksr-libev-ssr-local_2.5.6-11_mipsel_24kc.ipk
+Size: 58403
+SHA256sum: afb2c6579eba2939b6e3ec7f3f48270027935c02bb031b9ab596f8b51a50c25e
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754697346
+Architecture: mipsel_24kc
+Installed-Size: 2229
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-11_mipsel_24kc.ipk
+Size: 2988
+SHA256sum: 5d83c8a84344302630872c8fede465dbec325a1e0cabec6df24e69ee37551606
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754697346
+Architecture: mipsel_24kc
+Installed-Size: 51963
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-11_mipsel_24kc.ipk
+Size: 52378
+SHA256sum: 555ffca0e0947b40eca2ed7dc0ece15a61e6929b9c0298d0f54226a3fcee0b4c
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre2, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754697346
+Architecture: mipsel_24kc
+Installed-Size: 60614
+Filename: shadowsocksr-libev-ssr-server_2.5.6-11_mipsel_24kc.ipk
+Size: 61160
+SHA256sum: 78ec03cce9e3f067bec0f43e4f90aa711ec422c171c366cd6d47711a5a1349d6
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-3
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/passwall_packages/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754489965
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mipsel_24kc
+Installed-Size: 24262
+Filename: simple-obfs-client_0.0.5-3_mipsel_24kc.ipk
+Size: 25030
+SHA256sum: d7153d2105f5601404b075fa2f1ef4e65a51a5ff2d10fee4f6566c6a970387c5
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs-server
+Version: 0.0.5-3
+Depends: libc, libpthread, libev
+Source: feeds/passwall_packages/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1754489965
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mipsel_24kc
+Installed-Size: 26093
+Filename: simple-obfs-server_0.0.5-3_mipsel_24kc.ipk
+Size: 26878
+SHA256sum: 1adf5de873a12b7702b31e24809b50855bf2b6250fbabaa0cfd9516cdb46c62a
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/passwall_packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1754734070
+Architecture: mipsel_24kc
+Installed-Size: 3896
+Filename: tcping_0.3-1_mipsel_24kc.ipk
+Size: 4597
+SHA256sum: 199cb83119de802af2d4ebdeb3f27f35aac543798186145fb2e06ff5430b9f0d
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-program_options, boost-system
+Source: feeds/passwall_packages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1756563185
+Maintainer: Trojan-Plus-Group
+Architecture: mipsel_24kc
+Installed-Size: 398801
+Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
+Size: 399593
+SHA256sum: 0e06494fe4359b2100877878dd816f45b577c934623bf6e903821c36ae816f1f
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: v2ray-geoip
+Version: 202602050029.1
+Depends: libc
+Source: feeds/passwall_packages/v2ray-geodata
+SourceName: v2ray-geoip
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1770372867
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4471622
+Filename: v2ray-geoip_202602050029.1_all.ipk
+Size: 4153333
+SHA256sum: 06435b01cdc71a18741b0bdc6f90ce5d5baa6f2c8a44f9b26e1c5460df868e79
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 202602052221.1
+Depends: libc
+Source: feeds/passwall_packages/v2ray-geodata
+SourceName: v2ray-geosite
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1770372867
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 3252035
+Filename: v2ray-geosite_202602052221.1_all.ipk
+Size: 3252319
+SHA256sum: 170ba111dfecbad12230c10f26c9148bd6457706c6e7621f81fa521e56809e58
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.44.1-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1770052259
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5882242
+Filename: v2ray-plugin_5.44.1-1_mipsel_24kc.ipk
+Size: 5870852
+SHA256sum: 9f2c869b435368e842aeb748982d1ceb403a1dcee69129598d2923e14006d0dc
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: xray-core
+Version: 26.2.6-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1770372880
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 10400456
+Filename: xray-core_26.2.6-1_mipsel_24kc.ipk
+Size: 10380975
+SHA256sum: 0323313d28152a8cac8661c935ca94a94233cd6537d015a452d8e428ffa1b5cf
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
