@@ -1,15 +1,11 @@
 #!/bin/sh
 
-wget -O passwall.pub https://master.dl.sourceforge.net/project/openwrt-passwall-build/passwall.pub
+wget -O passwall.pub https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/refs/heads/main/releases/packages-22.03/mipsel_24kc/passwall.pub
 
 opkg-key add passwall.pub
 
-read release arch << EOF
-$(. /etc/openwrt_release ; echo ${DISTRIB_RELEASE%.*} $DISTRIB_ARCH)
-EOF
-for feed in passwall_luci passwall_packages; do
-    echo "src/gz $feed https://master.dl.sourceforge.net/project/openwrt-passwall-build/releases/packages-$release/$arch/$feed" >> /etc/opkg/customfeeds.conf
-done
+echo "src/gz passwall_luci     https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/refs/heads/main/releases/packages-22.03/mipsel_24kc/passwall_luci"     >> /etc/opkg/customfeeds.conf
+echo "src/gz passwall_packages https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/refs/heads/main/releases/packages-22.03/mipsel_24kc/passwall_packages" >> /etc/opkg/customfeeds.conf
 
 opkg update && opkg list-upgradable | cut -f 1 -d ' ' | xargs -r opkg upgrade --force-maintainer
 opkg remove dnsmasq
