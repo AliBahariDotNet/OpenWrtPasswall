@@ -40,23 +40,6 @@ rm -f install-core-service && wget https://raw.githubusercontent.com/AliBahariDo
 
 cd /root/
 
-rm -f core.txt
-rm -f install-xray-core.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-xray-core.sh && chmod +x install-xray-core.sh
-rm -f install-sing-box.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-sing-box.sh && chmod +x install-sing-box.sh
-
-echo -e "1. Sing-box"
-echo -e "2. Xray"
-read -p "-Select Core Option : " choice
-case $choice in
-    1)
-        echo "sing" >> core.txt
-        sh install-sing-box.sh
-    ;;
-    
-    2)
-        echo "xray" >> core.txt
-        sh install-xray-core.sh
-    ;;
-esac
+rm -f install-xray-core.sh && wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/install-xray-core.sh && chmod +x install-xray-core.sh && sh install-xray-core.sh
 
 rm -f install-passwall.sh

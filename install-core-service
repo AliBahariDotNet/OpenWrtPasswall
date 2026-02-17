@@ -3,14 +3,5 @@
 START=99
 
 start(){
-    choice=`cat /root/core.txt`
-    case $choice in
-        sing)
-            sh /root/install-sing-box.sh
-        ;;
-        
-        xray)
-            sh /root/install-xray-core.sh
-        ;;
-    esac
+	sh /root/install-xray-core.sh
 }

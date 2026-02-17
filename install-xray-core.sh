@@ -4,12 +4,12 @@ service passwall stop
 
 cd /tmp
 
-rm -f xray-core_25.6.8-1_mipsel_24kc.ipk
+rm -f xray-core_26.2.6-1_mipsel_24kc.ipk
 
-wget https://raw.githubusercontent.com/AliBahariDotNet/OpenWrtPasswall/main/xray-core_25.6.8-1_mipsel_24kc.ipk
+wget https://github.com/AliBahariDotNet/OpenWrtPasswall/raw/refs/heads/github-repo/releases/packages-22.03/mipsel_24kc/passwall_packages/xray-core_26.2.6-1_mipsel_24kc.ipk
 
-opkg install xray-core_25.6.8-1_mipsel_24kc.ipk -d ram
+opkg xray-core_26.2.6-1_mipsel_24kc.ipk -d ram
 
-rm -f xray-core_25.6.8-1_mipsel_24kc.ipk
+rm -f xray-core_26.2.6-1_mipsel_24kc.ipk
 
 service passwall restart
