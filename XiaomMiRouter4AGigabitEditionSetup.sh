@@ -1,5 +1,3 @@
-## root password: .dWFW>8'IXgm-~N4UDL6}m|q
-
 uci set system.@system[0].zonename='Asia/Tehran'
 uci set system.@system[0].timezone='<+0330>-3:30'
 
